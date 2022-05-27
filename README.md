@@ -8,7 +8,7 @@
 
 <p align="justify">Neste trabalho o método utilizado se chama A*. Este método é uma variação do método BFS (Breadth-First Search), também conhecido como Busca em Largura. Além de utilizar este método, será realizada uma comparação do resultado deste algoritmo com os métodos BFS e DFS. A dupla que realizou este trabalho possui uma explicação destes métodos citados <a href="https://github.com/ppinheirosiqueira/BFS-DFS">neste link</a>.</p>
 
-<p align="justify" font-color="red">Explicar A* - que ordena e tals e por isso se difere do BFS base</p>
+<p align="justify">Explicar A* - que ordena e tals e por isso se difere do BFS base</p>
 
 ## Entrada
 
@@ -77,7 +77,7 @@
 
 <p align="justify">Para que fosse possível ordenar as filas pelas distãncias, foi necessário que os Itens que eram Enfileirados ou Empilhados possuisem este valor de Distância, que assim foi incluso como um Float. Apesar da inclusão deste número, tanto os métodos de BFS quanto DFS não o utilizaram. Nas opções envolvendo A*, a distância seria calculada a depender de qual fosse o caso e aí sim o item era enfileirado.</p>
 
-<p align="justify" font-color="red">Explicar bubble?</p>
+<p align="justify">Explicar bubble?</p>
 
 ## Saída
 
