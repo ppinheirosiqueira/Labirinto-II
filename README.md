@@ -55,7 +55,7 @@
 2,4
 5,4
 ```
-<p align="justify">Assim, a segunda matriz de entrada em nosso teste é:</p>
+<p align="justify">Assim, a terceira matriz de entrada em nosso teste é:</p>
 
 <p align="center"><img src="images/Matriz%20-%20Entrada%203.jpeg" style="width:40%;"></p>
 
@@ -67,7 +67,7 @@
 6,0
 6,4
 ```
-<p align="justify">Assim, a terceira matriz de entrada em nosso teste é:</p>
+<p align="justify">Assim, a quarta matriz de entrada em nosso teste é:</p>
 
 <p align="center"><img src="images/Matriz%20-%20Entrada%204.jpeg" style="width:40%;"></p>
 
@@ -81,7 +81,24 @@
 
 <p align="justify">Para ilustração do nosso algoritmo, segue abaixo um gif para cada método de busca, contemplando as diferenças de cada um para acessar o destino final. No gif, a cor azul representa as posições atuais, a vermelha as posições enfileiradas/empilhadas, a cinza os vértices desempilhados no DFS e posições ignoradas pelos cálculos de distância no A*, e, por último a verde que representa as posições futuras do BFS e a conclusão no destino final.</p>
 
+### Terceira Matriz
 
+<p float="left">
+<img src="images/BFS-2.gif" width="249"/>
+<img src="images/DFS-2.gif" width="249"/>
+<img src="images/Euclidiana-1.gif" width="249"/>
+<img src="images/Manhattan-1.gif" width="251"/>
+</p>
+
+### Quarta Matriz
+
+<p float="left">
+<img src="images/BFS-3.gif" width="249"/>
+<img src="images/DFS-3.gif" width="249"/>
+<img src="images/Euclidiana-2.gif" width="249"/>
+<img src="images/Manhattan-2.gif" width="249"/>
+</p>
+  
 ## Saída
 
 <p align="justify">O programa agora possui um menu de escolha, onde o usuário pode escolher se deseja rodar a matriz de entrada no BFS, DFS, A* com Distância Euclidiana ou A* com Distância Manhattan. A saída para qualquer opção é igual a apresentada no <a href="https://github.com/ppinheirosiqueira/BFS-DFS">algoritmo base</a> já citado algumas vezes nessa discussão.</p>
