@@ -84,6 +84,7 @@
 ### Terceira Matriz
 
 <p float="left">
+<img src="images/BFS-2.gif" width="249"/>
 <img src="images/DFS-2.gif" width="249"/>
 <img src="images/Euclidiana-1.gif" width="249"/>
 <img src="images/Manhattan-1.gif" width="251"/>
@@ -93,6 +94,7 @@
 
 <p float="left">
 <img src="images/BFS-3.gif" width="249"/>
+<img src="images/DFS-3.gif" width="249"/>
 <img src="images/Euclidiana-2.gif" width="249"/>
 <img src="images/Manhattan-2.gif" width="249"/>
 </p>
