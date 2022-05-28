@@ -93,8 +93,8 @@
 ### Quarta Matriz
 
 <p float="left">
-<img src="images/BFS-2.gif" width="200"/>
-<img src="images/DFS-2.gif" width="200"/>
+<img src="images/BFS-2s.gif" width="200"/>
+<img src="images/DFS-2s.gif" width="200"/>
 <img src="images/Euclidiana-2.gif" width="200"/>
 <img src="images/Manhattan-2.gif" width="200"/>
 </p>
