@@ -8,7 +8,9 @@
 
 <p align="justify">Neste trabalho o método utilizado se chama A*. Este método é uma variação do método BFS (Breadth-First Search), também conhecido como Busca em Largura. Além de utilizar este método, será realizada uma comparação do resultado deste algoritmo com os métodos BFS e DFS. A dupla que realizou este trabalho possui uma explicação destes métodos citados <a href="https://github.com/ppinheirosiqueira/BFS-DFS">neste link</a>.</p>
 
-<p align="justify">Explicar A* - que ordena e tals e por isso se difere do BFS base</p>
+<p align="justify">O A* pode ser explicado como uma 'melhoria' do BFS, pois em sua estrutura terá cálculos de distância das posições da matriz para que o destino final seja acessado de maneira mais rápida. Neste exemplo, as distância utilizidas serão Euclidana e Manhattan. Segue abaixo as fórmulas utilizadas para os cálculos:</p>
+
+<p align="center"><img src="images/formula.jpg" style="width:40%;"></p>
 
 ## Entrada
 
