@@ -24,7 +24,7 @@
 
 <p align="justify">E esta será a primeira entrada testada para todos os métodos:</p>
 
-<p align="center"><img src="images/Matriz%20-%20Entrada%201.jpeg" style="width:40%;"></p>
+<p align="center"><img src="images/Matriz%20-%20Entrada%204.png" style="width:40%;"></p>
 
 <p align="justify">A segunda etapa é a introdução das barreiras. Para isso, a partir da segunda linha do arquivo, coloque o par de coordenadas que se deseja criar uma barreira. Esta coordenada deve levar em conta o próprio tamanho da matriz, além de que estamos usando um programa que trabalha com o valor inicial (0,0). Então em uma matriz 7x7, como a do exemplo, a maior coordenada possível é (6,6). Qualquer coordenada com um valor maior que o limite da primeira linha ou menor que 0 provocará erros na execução do programa. Para a introdução desta coordenada é necessário simplesmente que coloque a coordenada do eixo X, uma vírgula, a coordenada do eixo Y. Para a introdução de novas barreiras, sempre coloque na próxima linha, sendo uma barreira nova por linha. A entrada que será testada no nosso exemplo será esta:</p>
 
@@ -57,7 +57,7 @@
 ```
 <p align="justify">Assim, a terceira matriz de entrada em nosso teste é:</p>
 
-<p align="center"><img src="images/Matriz%20-%20Entrada%203.jpeg" style="width:40%;"></p>
+<p align="center"><img src="images/Matriz%20-%20Entrada%201.png" style="width:40%;"></p>
 
 ```
 7
@@ -69,7 +69,7 @@
 ```
 <p align="justify">Assim, a quarta matriz de entrada em nosso teste é:</p>
 
-<p align="center"><img src="images/Matriz%20-%20Entrada%204.jpeg" style="width:40%;"></p>
+<p align="center"><img src="images/Matriz%20-%20Entrada%203.png" style="width:40%;"></p>
 
 
 ## Programação
@@ -77,26 +77,27 @@
 
 <p align="justify">Para que fosse possível ordenar as filas pelas distãncias, foi necessário que os Itens que eram Enfileirados ou Empilhados possuisem este valor de Distância, que assim foi incluso como um Float. Apesar da inclusão deste número, tanto os métodos de BFS quanto DFS não o utilizaram. Nas opções envolvendo A*, a distância seria calculada a depender de qual fosse o caso e aí sim o item era enfileirado.</p>
 
-<p align="justify">Explicar bubble?</p>
+<p align="justify">Para tal ordenação da fila, utilizou-se o método Bubble Sort, por ser um método de fácil aplicação e que precisará ordenar poucas coisas em muita quantidade, o que o torna extremamente útil. Portanto, este método foi implementado da seguinte forma: Criou-se um vetor de <code>Itens</code> que terá as distâncias calculadas pelo algoritmo sendo assim, ordenado. Um <code>Bloco</code> auxiliar que preencherá o vetor antes da ordenação e após a ordenação será atualizado direto na fila. E por último um <code>Item</code> auxiliar que ajudará na implementação do Bubble Sort.</p>
 
-<p align="justify">Para ilustração do nosso algoritmo, segue abaixo um gif para cada método de busca, contemplando as diferenças de cada um para acessar o destino final. No gif, a cor azul representa as posições atuais, a vermelha as posições enfileiradas/empilhadas, a cinza os vértices desempilhados no DFS e posições ignoradas pelos cálculos de distância no A*, e, por último a verde que representa as posições futuras do BFS e a conclusão no destino final.</p>
+<p align="justify">Para ilustração do nosso algoritmo, segue abaixo um gif para cada método de busca, contemplando as diferenças de cada um para acessar o destino final. No gif, a cor azul representa as posições atuais, a vermelha as posições enfileiradas/empilhadas, a cinza os vértices desempilhados no DFS e posições ignoradas pelos cálculos de distância no A*, e, por último a verde que representa as posições futuras do BFS e a conclusão no destino final. Tendo em vista que a segunda matriz ja foi ilustrada <a href="https://github.com/ppinheirosiqueira/BFS-DFS">aqui</a>, e a primeira matriz não possui obstáculos foram feitas ilustrações apenas das duas últimas.</p>
 
 ### Terceira Matriz
-
-<p float="left">
-<img src="images/BFS-3.gif" width="200"/>
-<img src="images/DFS-3.gif" width="200"/>
-<img src="images/Euclidiana-1.gif" width="200"/>
-<img src="images/Manhattan-1.gif" width="200"/>
-</p>
-
-### Quarta Matriz
 
 <p float="left">
 <img src="images/BFS-2s.gif" width="200"/>
 <img src="images/DFS-2s.gif" width="200"/>
 <img src="images/Euclidiana-2.gif" width="200"/>
 <img src="images/Manhattan-2.gif" width="200"/>
+</p>
+
+
+### Quarta Matriz
+
+<p float="left">
+<img src="images/BFS-3.gif" width="200"/>
+<img src="images/DFS-3.gif" width="200"/>
+<img src="images/Euclidiana-1.gif" width="200"/>
+<img src="images/Manhattan-1.gif" width="200"/>
 </p>
   
 ## Saída
